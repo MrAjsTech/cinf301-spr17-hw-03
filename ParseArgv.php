@@ -13,11 +13,21 @@ class ParseArgv
             "One" => "one",
             "Two" => "two"
         );
+        
+        
     }
 
     public function getParsed()
     {
         return $this->argsParsed;
+    }
+    
+    public function argv(){
+    	
+    	
+    	
+    	return $this->argsParsed;
+    
     }
 }
 

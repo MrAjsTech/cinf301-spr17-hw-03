@@ -1,15 +1,10 @@
-
 <?php
 require_once "./ParseArgv.php";
 
 $parsed = new ParseArgv();
-$arguments = $parsedā€”>getParsed();
-// want   $arguments = $parsed->argv;  instead
+//$arguments = $parsed->getParsed();
+$arguments = $parsed->argv;
 
 foreach ($arguments as $k => $v) {
     print("$k=>$v\n");
 }
-
-
-?>
-
